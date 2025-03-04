@@ -1,0 +1,14 @@
+body {
+    background-color: #F8FAF9;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    font-weight: 400;
+    font-size: medium;
+}
+
+.vl {
+    border-left: 1px solid gainsboro;
+    height: 50px;
+}
