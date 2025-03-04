@@ -1,0 +1,287 @@
+<!-- Made By Adam Zahran Ramadhan -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign UP - Obito</title>
+
+    <!-- External CSS -->
+    <link href="css/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <nav
+      class="bg-white dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <div class="flex">
+          <a href="#" class="flex items-center me-12">
+            <img src="img/logo-64.png" class="h-8 me-4" alt="Flowbite Logo" />
+            <span
+              class="self-center text-2xl font-bold whitespace-nowrap dark:text-white"
+              >Obito</span
+            >
+          </a>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-black font-semibold rounded-sm md:bg-transparent md:text-black-700 md:p-0 md:dark:text-black-500"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-black font-normal rounded-sm hover:text-black hover:font-semibold hover:bg-transparent md:p-0 md:dark:hover:text-black md:dark:hover:font-semibold dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-black font-normal rounded-sm hover:text-black hover:font-semibold hover:bg-transparent md:p-0 md:dark:hover:text-black md:dark:hover:font-semibold dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-black font-normal rounded-sm hover:text-black hover:font-semibold hover:bg-transparent md:p-0 md:dark:hover:text-black md:dark:hover:font-semibold dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex">
+          <a class="flex items-center" href="#"
+            ><img src="img/icon/device-message.svg" id="logo-cs"
+          /></a>
+          <div class="vl mx-4"></div>
+          <button
+            type="button"
+            class="text-black bg-transparent border border-gray-400 hover:bg-[#2F6A62] hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1D4F45] font-semibold rounded-full text-md px-5 py-3 text-center dark:border-gray-600 dark:hover:bg-[#2F6A62] dark:hover:text-white dark:focus:ring-[#1D4F45] md:me-3"
+          >
+            <a href="">Sign Up</a>
+          </button>
+          <button
+            type="button"
+            class="text-white bg-[#2F6A62] hover:bg-[#265D53] hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1D4F45] font-semibold rounded-full text-md px-5 py-3 text-center dark:bg-[#2F6A62] dark:hover:bg-[#2F6A62] dark:hover:text-white dark:focus:ring-[#1D4F45]"
+          >
+            <a href="#">My Account</a>
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="main justify-center">
+      <section class="relative flex flex-wrap lg:h-screen lg:items-center">
+        <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:p-12">
+          <div
+            class="w-full items-center p-4 bg-white border border-gray-200 rounded-[20px] shadow-sm sm:p-6 md:p-5 dark:bg-gray-800 dark:border-gray-700"
+          >
+            <form class="space-y-6" action="#">
+              <h5 class="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                Upgrade Your Skills
+              </h5>
+
+              <div class="flex items-center mb-4">
+                <a href="#" onclick="triggerFileInput()">
+                  <div
+                    class="relative w-20 h-20 border-2 border-gray-200 bg-white rounded-full dark:bg-gray-600 flex items-center justify-center text-gray-900 font-bold dark:text-white text-sm text-center"
+                  >
+                    <div id="profile-picture-container">
+                      Add <br />
+                      Photo
+                    </div>
+                  </div>
+                </a>
+
+                <input
+                  type="file"
+                  id="file-input"
+                  class="hidden"
+                  accept="image/*"
+                  onchange="changeProfilePicture(event)"
+                />
+
+                <div id="delete-button-container" class="hidden ml-3">
+                  <button
+                    onclick="deleteProfilePicture()"
+                    class="bg-red-200 text-red-600 font-bold px-4 py-2 rounded-full text-xs me-3 hover:bg-red-300"
+                  >
+                    DELETE PHOTO
+                  </button>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label
+                  for="name-icon"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Complete Name</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <img src="img/icon/profile.svg" alt="profile" />
+                  </div>
+                  <input
+                    type="text"
+                    id="name-icon"
+                    class="bg-white border border-gray-300 text-gray-900 text-sm font-bold placeholder:font-normal rounded-full focus:ring-blue-500 focus:border-green-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Type your complete name"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label
+                  for="occupation-icon"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Occupation</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <img src="img/icon/briefcase.svg" alt="profile" />
+                  </div>
+                  <input
+                    type="text"
+                    id="occupation-icon"
+                    class="bg-white border border-gray-300 text-gray-900 text-sm font-bold placeholder:font-normal rounded-full focus:ring-blue-500 focus:border-green-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Type your occpuation"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label
+                  for="email-address-icon"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Email Address</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <img src="img/icon/sms.svg" alt="profile" />
+                  </div>
+                  <input
+                    type="text"
+                    id="email-address-icon"
+                    class="bg-white border border-gray-300 text-gray-900 text-sm font-bold placeholder:font-normal rounded-full focus:ring-blue-500 focus:border-green-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Type your valid Email Address"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label
+                  for="password-icon"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Password</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <img src="img/icon/shield-security.svg" alt="security" />
+                  </div>
+                  <input
+                    type="password"
+                    id="password-icon"
+                    class="bg-white border border-gray-300 text-gray-900 text-sm font-bold placeholder:font-normal rounded-full focus:ring-blue-500 focus:border-green-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Enter your password"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label
+                  for="confirm-password-icon"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  >Confirm Password</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                  >
+                    <img src="img/icon/shield-security.svg" alt="security" />
+                  </div>
+                  <input
+                    type="password"
+                    id="confirm-password-icon"
+                    class="bg-white border border-gray-300 text-gray-900 text-sm font-bold placeholder:font-normal rounded-full focus:ring-blue-500 focus:border-green-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Confirm your password"
+                  />
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full text-white bg-[#2F6A62] hover:bg-[#265D53] hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1D4F45] font-semibold rounded-full text-md px-5 py-3 text-center dark:bg-[#2F6A62] dark:hover:bg-[#2F6A62] dark:hover:text-white dark:focus:ring-[#1D4F45]"
+              >
+                <a href="#">Create My Account</a>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+          <img
+            alt=""
+            src="img/banner.png"
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
